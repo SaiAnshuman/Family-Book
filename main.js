@@ -1,6 +1,6 @@
 var names_of_people = ["Srinivas.R","Rekha.S","Sai Anshuamn.S"];
 
-var images = ["dad.png","mom.png","anshu.png"];
+var images = ["Daddy.jpg","Mummy.jpg","Anshu.jpg"];
 
 var i=0;
 function nextslide() {
