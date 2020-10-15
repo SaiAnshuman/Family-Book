@@ -1,4 +1,4 @@
-var names_of_people = ["Srinivas.R","Rekha.S","Sai Anshuamn.S"];
+var names_of_people = ["Srinivas.R","Rekha.S","Sai Anshuamn.S(me)"];
 
 var images = ["Daddy.jpg","Mummy.jpg","Anshu.jpg"];
 
@@ -7,6 +7,11 @@ function nextslide() {
 document.getElementById("img_family_members").src=images[i];
 document.getElementById("Name").innerHTML=names_of_people [i];
 i++;
+if(i>2){
+
+   i = 0;
+     
+}
 }
 
 
